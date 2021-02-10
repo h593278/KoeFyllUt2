@@ -24,9 +24,11 @@ public class KjedetKoe<T> implements KoeADT<T> {
 	 ******************************************************************/
 	public void innKoe(T element) {
 		LinearNode<T> nyNode = new LinearNode<T>(element);
-		
+//		LinearNode<T> beholder=bak;
 		if (foran==null) {
 			foran = nyNode;	
+		} else {
+			bak.setNeste(nyNode);
 		}
 			bak=nyNode;
 			antall++;
