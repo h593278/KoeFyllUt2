@@ -12,6 +12,12 @@ import org.junit.jupiter.api.Test;
 import adt.KoeADT;
 import no.hvl.data102.exception.EmptyCollectionException;
 
+/**
+ * Test for KoeADT.
+ * 
+ * @author Ole Anders Nødland, Odd Rosland, Andrea Myhre Svendheim, Nasra Salim Tahil
+ */
+
 public abstract class TestkoeADT {
 	private KoeADT<Integer> koe;
 
